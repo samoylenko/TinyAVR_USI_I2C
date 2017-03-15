@@ -3,7 +3,7 @@ The hardware I am using is ATtiny85, but should be compatible with other TinyAVR
   
 Currently at a very early stage - note the frequency slowdown at the screenshot, it was over 100khz before moved to a separate c file with header (MCU frequency is 1Mhz)  
   
-Being tested at a real hardware (ATtiny85) with a real oscilloscope - I was not satisfied with USI support in AtmelStudio simulator.  
+Being tested at a real hardware (ATtiny85) with a real oscilloscope - I was not satisfied with USI support in AtmelStudio simulator (but I am amazed with it's debugWire support!)
   
 Discoveries so far:  
 1. USI won't use SDA if a corresponding PORTx bit is not set to HIGH. Just in case, ensure doing the same with SCL (DDRx bit also must be set to output for both).  

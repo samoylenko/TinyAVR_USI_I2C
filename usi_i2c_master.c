@@ -1,10 +1,3 @@
-/*
- * USI_I2C_Master.c
- *
- * Created: 3/13/2017 10:55:21 PM
- *  Author: pm
- */ 
-
 #include "usi_i2c_master.h"
 
 // TODO: Do we need NOPs and other means to implement delays?
