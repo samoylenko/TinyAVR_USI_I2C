@@ -29,9 +29,6 @@
 // Macro to generate a byte with slave address and data direction
 #define USI_I2C_ADDR(addr, mode) ((addr << 1) | mode)
 
-// Macro to wait until SCL is released
-#define USI_I2C_
-
 //------------------------------------------------------------------------------
 // Function prototypes
 
